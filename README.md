@@ -13,23 +13,23 @@ Sources:
 
 # Demographics
 
-* demographics.csv - Precinct population/racial breakdown files.
+* demographics.csv - Precinct population/racial breakdown files. (From DRA)
 
-* block_group_demographics.csv - Block group population/racial breakdown files (CA, MT, OR, RI in 2010 and CA, HI, OR, WV in 2020)
+* block_group_demographics.csv - Block group population/racial breakdown files (CA, MT, OR, RI in 2010 and CA, HI, OR, WV in 2020) (From DRA)
 
-* block_demographics.csv - Census block population/racial breakdown files.
+* block_demographics.csv - Census block population/racial breakdown files. (From Census P2 file)
 
 # Geodata
 
-* geodata.7z- Compressed precinct geodata files. (2010 blocks if 2010, 2020 blocks if 2020.)
+* geodata.7z- Compressed precinct geodata files. (2010 blocks if 2010, 2020 blocks if 2020.) (Census TIGER)
 
-* block_group_geodata.7z - Compressed block group geodata files (CA, MT, OR, RI in 2010 and CA, HI, OR, WV in 2020)
+* block_group_geodata.7z - Compressed block group geodata files (CA, MT, OR, RI in 2010 and CA, HI, OR, WV in 2020) (Census TIGER)
 
-* block_geodata.7z - Compressed [census](https://www2.census.gov/geo/tiger/TIGER2020/) block geodata files. (2010 blocks if 2010, 2020 blocks if 2020.)
+* block_geodata.7z - Compressed [census](https://www2.census.gov/geo/tiger/TIGER2020/) block geodata files. (2010 blocks if 2010, 2020 blocks if 2020.) (Census TIGER)
     * Note: Due to Github's limits on file size, All the 2010 and 2020 CA/TX files contained simplified (to 20%) geodata to reduce their size, which does not significantly affect the geometry but makes them not completely accurate.
 
 # Election data
 
-* election_data.csv - Precinct election data.
+* election_data.csv - Precinct election data. (DRA)
 
-* block_group_election_data.csv - Block group election data (CA, MT, OR, RI in 2010 and CA, HI, OR, WV in 2020)
+* block_group_election_data.csv - Block group election data (CA, MT, OR, RI in 2010 and CA, HI, OR, WV in 2020) (DRA)
