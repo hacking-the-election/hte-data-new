@@ -1,3 +1,5 @@
 *.json
 block_demographics.csv
 block_vap.csv
+*block_geodata.7z
+
